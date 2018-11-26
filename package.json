@@ -4,11 +4,11 @@
   "description": "restful api",
   "main": "server.js",
   "scripts": {
-    "client-install":"npm install --prefix client",
-    "client":"npm start --prefix client",
+    "client-install": "npm install --prefix client",
+    "client": "npm start --prefix client",
     "server": "node server.js",
     "start": "node server.js",
-    "dev":"concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "yuning",
   "license": "ISC",
@@ -21,6 +21,7 @@
     "jsonwebtoken": "^8.3.0",
     "mongoose": "^5.3.9",
     "passport": "^0.4.0",
-    "passport-jwt": "^4.0.0"
+    "passport-jwt": "^4.0.0",
+    "request": "^2.88.0"
   }
 }

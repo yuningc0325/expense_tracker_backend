@@ -28,6 +28,10 @@ app.use('/api/users',users);
 const profiles= require('./routes/api/profiles');
 app.use('/api/profiles/',profiles);
 
+// External API request
+const externalApi= require('./routes/api/externalApi');
+app.use('/api/external/',externalApi);
+
 // Server connection
 const port= process.env.PORT||5000;
 const ip= process.env.IP;
